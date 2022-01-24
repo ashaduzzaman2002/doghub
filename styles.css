@@ -1,0 +1,244 @@
+/* tag selector */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem !important;  
+    line-height: 1.5 !important;  
+    font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem !important;  
+    line-height: 1.3 !important; 
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem !important;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* common selector */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title section */
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.main-sec{
+    padding: 3% 15% 4.5%!important;
+}
+.title-img{
+    width: 19%;
+    transform: rotate(25deg);
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    top: 25%;
+}
+
+/* navbar */
+
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+}
+nav .container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    padding: 5% !important;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials section  */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+#testimonials img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+
+}
+
+/* press section  */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 13.5%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing{
+    padding: 100px !important;
+    text-align: center;
+}
+.pricing-item{
+    padding: 9% 2% !important;
+}
+
+/* cta section  */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+#cta h3{
+    font-size: 3rem !important;
+    line-height: 1.5 !important; 
+}
+
+
+/* footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer a{
+    color: black;
+    padding: 0 15px;
+}
+#footer p{
+    padding-top: 10px;
+}
+#footer a:hover{
+    color: #ff4c68;
+}
+
+/* media quaries */
+
+@media screen and (min-width: 994px) and (max-width: 1158px) {
+    .title-img{
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        top: 27%;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 2.9rem !important;  
+        line-height: 1.3 !important;  
+    }
+    .main-sec{
+        padding-top: 1.7%!important;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .title-img{
+        width: 50%;
+        transform: rotate(0);
+        position: static;
+        margin-top: 15%;
+        margin-bottom: 3%;
+    }
+    h1{
+        font-size: 3rem !important;  
+        line-height: 1.5 !important;  
+    }
+    #title{
+        text-align: center;
+    }
+    .main-sec{
+        padding: 3% 8% 4.5%!important;
+    }
+    #features{
+        position: static !important;
+        z-index: 0 !important;
+        padding: 7% 0%;
+    }
+    .title-row{
+        margin-top: 3% !important;
+    }
+    nav{
+        margin-top: 7%;
+    }
+    #pricing{
+        width: 80%;
+        margin: auto;
+        padding: 100px 30px !important;
+    }
+    .pricing-item{
+        padding: 8% 5% !important;
+    }
+    .pricing-haed{
+        margin: 10% 0;
+    }
+    .carousel-item{
+        padding: 5% 10%;
+    
+    }
+    #cta{
+        padding: 7% 5%;
+    }
+    #footer{
+        padding: 7% 0;
+    }
+    #footer a{
+        font-size: 35px;
+    }
+    #footer p{
+        font-size: 18px;
+    }
+    #testimonials img{
+        width: 20%;
+    }
+} 
